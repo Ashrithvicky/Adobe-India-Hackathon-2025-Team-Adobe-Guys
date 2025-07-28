@@ -1,7 +1,6 @@
 import fitz  # PyMuPDF
 import re
 
-# Set this to -1 for your file02 to match expected output
 PAGE_OFFSET = -1
 
 def extract_outline(pdf_path):
