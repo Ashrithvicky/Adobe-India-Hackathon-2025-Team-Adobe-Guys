@@ -51,19 +51,7 @@ Build an offline solution that takes in a PDF and outputs a structured outline c
 - Handles different font sizes, positions, and heuristics
 - Optimized for PDFs up to 50 pages within 10s
 
-### 🐳 Docker Build & Run
 
-Build:
-```bash
-docker build --platform linux/amd64 -t challenge1a:solution .
-```
-
-Run:
-```bash
-docker run --rm   -v "${PWD}/sample_dataset/pdfs:/app/input"   -v "${PWD}/sample_dataset/outputs:/app/output"   --network none   challenge1a:solution
-```
-
----
 
 ## 🔍 Round 1B - Persona-Driven Document Intelligence
 
@@ -94,36 +82,6 @@ Build a persona-aware analyzer that ranks sections and subsections relevant to t
 
 ---
 
-## 📁 Repository Structure
-
-```
-Challenge_1a/
-├── sample_dataset/
-│   ├── outputs/            # JSON files as output
-│   ├── pdfs/               # Input PDF files
-│   └── schema/             # Output schema
-├── Dockerfile              # Docker container for Round 1A
-├── process_pdfs.py         # PDF heading extractor logic
-├── README.md               # This file
-
-Challenge_1b/
-├── persona_input.json      # Persona and Job
-├── analyze_documents.py    # Main script
-├── Dockerfile              # Round 1B Dockerfile
-└── output/                 # JSON output per document set
-```
-
----
-
-## 📘 How to Run (Round 1B)
-
-```bash
-docker build --platform linux/amd64 -t challenge1b:solution -f Challenge_1b/Dockerfile .
-
-docker run --rm   -v "${PWD}/Challenge_1b:/app"   --network none   challenge1b:solution
-```
-
----
 
 ## 🤝 Acknowledgements
 
