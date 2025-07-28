@@ -1,0 +1,75 @@
+{
+    "metadata": {
+        "input_documents": [
+            "South of France - Cities.pdf",
+            "South of France - Cuisine.pdf",
+            "South of France - History.pdf",
+            "South of France - Restaurants and Hotels.pdf",
+            "South of France - Things to Do.pdf",
+            "South of France - Tips and Tricks.pdf",
+            "South of France - Traditions and Culture.pdf"
+        ],
+        "persona": "Travel Planner",
+        "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+        "processing_timestamp": "2025-07-28T13:12:23.215557"
+    },
+    "extracted_sections": [
+        {
+            "document": "South of France - Things to Do.pdf",
+            "section_title": "Family -Friendly Activities The South of France oﬀers a variety...",
+            "importance_rank": 1,
+            "page_number": 9
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "section_title": "Conclusion The South of France is a diverse and enchanting...",
+            "importance_rank": 2,
+            "page_number": 13
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "section_title": "Nice: The Jewel of the French Riviera History Nice, located...",
+            "importance_rank": 3,
+            "page_number": 5
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "section_title": "Additional Tips: Bring a favorite stuﬀed animal or comfor t...",
+            "importance_rank": 4,
+            "page_number": 7
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "section_title": "Comprehensive Guide to Restaurants and Hotels in the South of...",
+            "importance_rank": 5,
+            "page_number": 1
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "South of France - Things to Do.pdf",
+            "refined_text": "Family -Friendly Activities The South of France oﬀers a variety of activities that are perfect for families with children: Theme Parks and Attractions Antibes: Visit Marineland for marine shows and an aquarium. Fréjus: Cool oﬀ at Aqualand water park. Villeneuve -Loubet: Enjoy quirky attractions at Le Village des Fous. Monteux: Spend a day at Parc Spirou, a theme park based on the famous comic book character. La Palmyre: Explore the La Palmyre Zoo, home to a wide variety of animals. Cap dAgde: Have fun at Luna Park, an amusement park with rides and games. Toulouse: Visit the Cité de lEspace, a space -themed science museum with interactive exhibits. Outdoor Adventures Verdon Gorge: Take a family hike or rent paddle boats to explore the stunning Verdon Gorge.",
+            "page_number": 9
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "refined_text": "Conclusion The South of France is a diverse and enchanting region that oﬀers a wide range of activities and experiences for travelers. Whether youre exploring the stunning coastline, immersing yourself in the rich cultural heritage, or indulging in the culinary delights, there is something for everyone to enjoy. From family -friendly adventures to vibrant nightlife, the South of France promises an unforgettable journey filled with memories that will last a life time. Use this guide to plan your trip and make the most of everything this beautiful region has to oﬀer.",
+            "page_number": 13
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "refined_text": "Nice: The Jewel of the French Riviera History Nice, located on the French Riviera, has been a popular destination for centuries. Its history dates back to the ancient Greeks, who founded the city around 350 BC. Nice later became a Roman colony and has since evolved into a glamorous resort town. In the 19th century, Nice became a favorite winter retreat for European aristocrats, which contributed to its development as a luxurious destination. Key Attractions Promenade des Anglais : This famous seaside promenade, built in the 19th century, is perfect for a leisurely stroll along the coast. It oﬀers stunning views of the Mediterranean and is lined with cafes and hotels. Castle Hill (Colline du Château): This hilltop park oﬀers panoramic views of Nice and the Mediterranean.",
+            "page_number": 5
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "refined_text": "Additional Tips: Bring a favorite stuﬀed animal or comfor t item to help kids feel at home. Consider packing a travel potty for young children. Special Considerations Beach Trips Beach Bag: A large, waterproof bag for essentials. Towels: Lightweight, quick -drying beach towels. Beach Toys: Buckets, shovels, and t oys for kids. Snorkeling Gear: Bring your own gear for a better fit and comfort. Additional Tips: Pack a beach umbrella or tent for shade and a cooler for drinks and snacks. Consider bringing a waterproof phone case to protect your device. Hiking and Outdo or Activities Backpack: A sturdy, comfortable backpack for essentials. Water Bottle: A reusable water bottle. First Aid Kit: A small kit with band -aids, antiseptic wipes, and medications.",
+            "page_number": 7
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "refined_text": "Comprehensive Guide to Restaurants and Hotels in the South of France Introduction The South of France, known for its stunning landscapes, rich cultural heritage, and exquisite cuisine, is a dream destination for travelers. From the glamorous beaches of the French Riviera to the charming villages of Provence, this region oﬀers a diverse array of experiences. Whether youre looking for budget -friendly options, family -friendly spots, upscale dining, or luxurious experiences, this guide will help you find t he perfect restaurants and hotels for your trip.",
+            "page_number": 1
+        }
+    ]
+}
