@@ -9,7 +9,7 @@ We are **Team Adobe Guys** and this repository includes complete solutions for *
 
 - **Vigneshwar SI**
 - **Mohana Krishnan G**
-- **Iniya**
+- **Iniya Vasanthan VM**
 
 ---
 
